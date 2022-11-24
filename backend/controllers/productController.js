@@ -85,15 +85,7 @@ function verProductos(){
     .then(res => console.log(res))
     .catch(err => console.log(err))
 }
-//verProductos()
+verProductos()
 
-// Ver productos por id con fetch
-function verProductosId(id){
-    fetch('http://localhost:4000/api/producto'+id)
-    .then(res => res.json())
-    .then(res => console.log(res))
-    .catch(err => console.log(err))
-}
-verProductosId('637d281adf3786d90649af2a')
 
 
