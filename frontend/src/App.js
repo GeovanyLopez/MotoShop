@@ -1,10 +1,10 @@
 import './App.css';
+import Header from './components/layout/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Probando</h1>
-      <img src="./images\logoPet.png"></img>
+      <Header/>
     </div>
   );
 }
